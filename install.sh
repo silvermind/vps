@@ -92,8 +92,7 @@ function check_distro() {
 		. /etc/os-release
 		if [[ "${VERSION_ID}" != "16.04" ]]; then
 			echo "This script only supports ubuntu 16.04 LTS, exiting."
-			echo "Proceed and Test !!"
-#			exit 1
+			exit 1
 		fi
 	else
 		# no, thats not ok!
