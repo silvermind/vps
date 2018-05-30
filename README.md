@@ -50,7 +50,7 @@ Some security hardening is done, including firewalling and a separate user
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/masternodes/vps.git && cd vps
+git clone https://github.com/silvermind/vps.git && cd vps
 ```
 
 Install & configure your desired master node with options:
